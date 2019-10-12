@@ -1,0 +1,41 @@
+\chapter{摘~~~~要}
+ \thispagestyle{fancy} \fancyhead[R]{\song\wuhao 摘要}
+为节省时间，很多地方的命令前面省去了“\textcolor[rgb]{1.00,0.00,0.00}{$\backslash$}”这条反斜杠命令，请在引用时注意区分。
+
+在学习 latex 的过程中，发现了很多新的简便用法，虽然出来的效果一致，但方法简便了许多，这个可以从源文件的代码中看出来，
+后面写的代码比以前简洁许多，但编译出来的效果是一样的。
+
+到后面加载的宏包越多，冲突越严重，我会将 ASY 绘图和幻灯片的内容单独出一 PDF 以减少编译时间和宏包间的冲突。这本就先到这里吧。
+
+
+建议使用 Adobe Reader9 以上版本打开 pdf，福昕阅读器不能打开本文 PDF 的附件（在 beamer 节中的幻灯片不能查看）和查看嵌入 PDF 的 3D 图。
+
+
+~\\ \color{red} \indent
+偶然的机会遇到壹基金，觉得这是一件很伟大的公益事业。能最大限度地发动和鼓励更多的人为这个世界奉献自己的爱心，
+在这里借这个机会让更多的人知道。发送 1 到 1069999309\footnote{\textcolor[rgb]{1.00,0.00,0.00}{会替你从手机中捐出 1 元到基金会，用于赈灾和其他公益活动}}。\\
+
+
+ \heartpar{ 虽然不能彻底改变整个世界，
+但我们可以尽自己的一份力让这个世界变得比以前更好一点} \color{black}
+
+%
+%~\\[2cm]
+%\begin{flushright}
+%\begin{minipage}{8cm}
+%\begin{asy}
+%texpreamble("\usepackage{CJK}
+% \AtBeginDocument{\begin{CJK*}{GBK}{kai}}
+%   \AtEndDocument{\clearpage\end{CJK*}}");
+%import three;
+%size(200);
+%currentprojection=orthographic(-2,-2,1.5);
+%path[]g=texpath("LATEX 笔记");
+%for(path p:g){
+%draw(path3(p),red+1pt);
+%draw(extrude(p,2Z),yellow);
+%draw(shift(2Z)*path3(p),red+1pt);
+%}
+%\end{asy}
+%\end{minipage}
+%\end{flushright}

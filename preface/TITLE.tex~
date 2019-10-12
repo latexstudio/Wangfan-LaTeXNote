@@ -1,0 +1,39 @@
+\begin{titlepage}
+
+\xiaosan\song\noindent
+\textbf{%
+分类号\underline{\hspace{3cm}}\qquad\qquad\qquad\qquad\qquad 密级\underline{\hspace{3cm}}\\
+UDC~~~\underline{\hspace{3cm}} \qquad\qquad\qquad\qquad\qquad 编号\underline{\hspace{3cm}}\\
+}
+
+\begin{center}
+\yihao
+电子科学研究院\\
+硕士学位论文 \\
+\quad\\
+
+
+\quad
+    \renewcommand{\baselinestretch}{1.2}
+    \centering
+    \xiaoer\hei\underline{抗强电磁脉冲 CPCI 计算机的研制}\\
+    \qquad\underline{The Development of High Power}\\
+    \qquad\underline{ Microwaves protected CPCI Computer}\\
+    \xiaosan\song   \underline{王凡}
+\end{center}
+\xiaosan\song\textbf{
+\begin{flushleft}
+指导教师      \underline{\hspace{4.5cm}胡晓吉研究员\hspace{4.4cm}}\\
+\centering\underline{\hspace{4.5cm} 加固计算机产品事业部\hspace{4.4cm}}\\
+学科专业名称\underline{\hspace{3.6cm} 计算机应用技术\hspace{3.8cm}}\\
+论文提交日期\hrulefill 论文答辩日期\hrulefill \\
+培养单位 \underline{\hspace{3.6cm}华北计算技术研究所\hspace{3.7cm}}\\
+学位授予单位\underline{\hspace{3.6cm}    电子科学研究院\hspace{3.7cm}}\\
+\end{flushleft}
+}
+\begin{flushright}
+    %\qquad\qquad\qquad\\
+    \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad \textbf{答辩委员会主席}\hrulefill\\
+\end{flushright}
+
+\end{titlepage}
